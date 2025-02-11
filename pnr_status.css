@@ -1,0 +1,221 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 4px;
+}
+.header-nav ol {
+    display: flex;
+    margin-left: -150px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.header-nav ol li {
+    list-style: none;
+    margin-right: 15px;
+}
+.header-nav span {
+    font-size: 13px;
+}
+.header-logo img {
+    width: 130px;
+    height: 35px;
+    margin-top: 3px;
+}
+.pnr-status {
+    background-color: #d3e5cf;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: -27px;
+}
+.pnr-status h1 {
+    font-size: 28px;
+    margin-top: 50px;
+    margin-bottom: 18px;
+    margin-left: -90px;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+#pnr-status-ip {
+    padding: 25px;
+    width: 550px;
+    font-size: 25px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    border-bottom-right-radius: 1px;
+    border-top-right-radius: 1px;
+    margin-left: -100px;
+}
+.pnr-status-button {
+    padding: 24.6px;
+    width: 250px;
+    font-size: 25px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin-top: -8px;
+    margin-left: -8px;
+    border-bottom-left-radius: 1px;
+    border-top-left-radius: 1px;
+    background-color: #42A047;
+    margin-bottom: 3.5px;
+    display: inline;
+}
+.platform-heading {
+    font-size: 26px;
+    font-weight: 630;
+    margin-top: 55px;
+}
+.platform {
+    margin-left: 19%;
+    margin-right: 18%;
+}
+.platform-details {
+    margin-top: 30px;
+}
+.platform-row {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    margin-bottom: 15px;
+}
+.platform-row-col {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.platform-row img {
+    width: 50px;
+    height: 50px;
+}
+.platform-details h2 {
+    font-size: 18px;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+
+}
+.platform-details p span {
+    font-size: 14px;
+    display: block;
+    color: gray;
+}
+.mobile-view {
+    background-color: #d3e5cf;
+    height: 275px;
+    display: flex;
+    margin-top: 120px;
+}
+.mobile-view-bg {
+    width: 620px;
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.mobile {
+    margin-left: 22%;
+    height: 460px;
+    width: 235px;
+    margin-top: -90px;
+    margin-right: 20px;
+}
+.mobile-view div {
+    display: flex;
+    flex-direction: column;
+}
+.mobile-os {
+    margin-left: 150px;
+    margin-top: 6px;
+}
+.mobile-os img {
+    width: 160px;
+    height: 52px;
+    margin-right: 10px;
+}
+.faqs {
+    margin-top: 400px;
+    margin-left: 19%;
+    margin-right: 18%;
+}
+.faq {
+    border-bottom:1px solid lightgray;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+.faq h3{
+    font-size: 23px;
+    font-weight: 550;
+    color: #292626;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+.faq p{
+    color: #5C5C5C;
+    font-size: 14px;
+}
+.faq p span{
+    display: block;
+    color: #333333;
+}
+footer {
+    margin-top: 100px;
+    background-color: #F0F7F0;
+    padding-top: 10px;
+}
+.footer-confirm{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+.footer-confirm-details{
+    display: grid;
+    grid-template-columns: 1.5fr 1.9fr 1.9fr 1.4fr 1.9fr 1.6fr 1.8fr;
+    grid-gap: 1px;
+    margin-left: 50px;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.footer-confirm-title img{
+    width: 130px;
+    height: 32px;
+    margin-bottom: 18px;  
+    margin-top: 4PX; 
+    padding-left: 10px;   
+    padding-right: 10px;     
+}
+.footer-confirm-title p{
+    display: block;
+    color: #44464f;
+    font-size: 14px;
+    padding-left: 10px;   
+    padding-right: 10px;    
+    margin-bottom: -20px;
+}
+.footer-confirm-details div{
+    margin-left: 2px;
+}
+.footer-confirm-details h5{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+.footer-confirm-details div span{
+    display: block;
+    font-size: 14PX;
+    color: #44464f;
+    margin-bottom: 3px;
+}
+.footer-social img{
+    margin-right: 10px;
+}
+.footer-hr {
+    width: 80%;
+    margin-left: 10%;
+    color: gray;
+    margin-bottom: 20px;
+}
+.footer-copyRight {
+    text-align: center;
+    color: #3d3f48;
+    padding-bottom: 35px;
+}
